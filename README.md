@@ -31,19 +31,10 @@ The dataset includes:
 ## 🤖 **Modeling Approaches**  
 
 ### 1. **Linear Regression (scikit-learn)**  
-- **Evaluation Metrics**: MSE, MAE, RMSE.  
-- **Visualization**: Scatter plot of actual vs. predicted values with a regression line.  
+Linear regression was applied to predict life expectancy, evaluated using error metrics like MSE, MAE, and RMSE, with results visualized through scatter plots.
 
 ### 2. **Neural Network (PyTorch)**  
-- **Architecture**:  
-  - Input layer: Matches feature count.  
-  - Hidden layers: 64 and 32 neurons.  
-  - Output layer: Single neuron for regression.  
-- **Training**:  
-  - Loss: Mean Squared Error (`MSELoss`).  
-  - Optimizer: Adam (learning rate = 0.001).  
-  - Epochs: 100.  
-- **Evaluation**: Test MSE calculated.  
+A neural network was designed with input, hidden, and output layers to predict life expectancy. It was trained using MSE loss, the Adam optimizer, and 100 epochs, with performance evaluated using test MSE.
 
 ---
 
